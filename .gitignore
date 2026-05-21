@@ -1,0 +1,15 @@
+# Data files - too large for GitHub
+data/
+*.h5ad
+*.rds
+*.mtx
+*.mtx.gz
+*.csv.gz
+
+# Python artifacts
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
