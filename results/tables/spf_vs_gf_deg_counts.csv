@@ -1,0 +1,13 @@
+region,layer,n_spf_up,n_gf_up,n_total,n_sample
+Duodenum,Crypt SI,6040,9,6050,1117
+Duodenum,Bottom villous SI,6600,79,6679,1355
+Duodenum,Top villous SI,416,6431,6847,4737
+Jejunum1,Crypt SI,1655,125,1780,1381
+Jejunum1,Bottom villous SI,5595,204,5799,2195
+Jejunum1,Top villous SI,956,6147,7103,4701
+Jejunum2,Crypt SI,457,179,636,1198
+Jejunum2,Bottom villous SI,4229,207,4436,2002
+Jejunum2,Top villous SI,1484,3224,4708,3213
+Ileum,Crypt SI,5306,205,5511,1555
+Ileum,Bottom villous SI,3142,398,3540,871
+Ileum,Top villous SI,3719,1362,5082,2916
