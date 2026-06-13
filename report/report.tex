@@ -100,7 +100,7 @@ eventually shedding from the villus tip into the gut lumen
 axis represents one of the most visible differentiation gradients in 
 mammalian biology, with cells transitioning from rapidly dividing 
 stem cells to post-mitotic, functionally specialized absorptive cells 
-over a period of just three to five days \cite{barrett2018mapping}.
+over a period of just three to five days.
 
 The three major segments of the small intestine — duodenum, jejunum, 
 and ileum — each perform distinct physiological roles. The duodenum 
@@ -126,7 +126,7 @@ in the mid-colon. However, their analysis focused predominantly on
 colonic regionalization, since that is where they found the most 
 distinctive patterns, and the spatial architecture of the small 
 intestinal villus — particularly the crypt-to-villus axis — was 
-not deeply characterized.
+not deeply characterized \cite{barrett2018mapping}.
 
 In this work, I replicate parts of the spatial framework established 
 by Mayassi et al. and extend the analysis to the small intestinal 
@@ -180,22 +180,22 @@ embedding was computed for visualization.
 
 \subsection{Leiden Clustering}
 
-Leiden unsupervised clustering was performed on the data using several
-resolution parameters (0.02, 0.05, 0.1, 0.25 and 0.5) to check if 
-whether indepentent clustering would recapture the known (and annotated
-by the authors) regional and layer structure of the data. The
-clustering at resolution=0.5 yielded in 27 clusters that are largely
-region-pure (Figure heatmap), but each region was split into multiple
-subclusters corresponding to "petals" substructure of the UMAP, not 
-to the known villus layers. At lowest resolution (0.02) the clustering
-produced 4 clusters - which is the same number as the number of 
-annotated regions - but the clusters are not pure and the two jejunum 
-regions mix the most. This could confirm that both proximal-distal axis 
-and, even more so, the crypt-villus tip axis form somewhat continuous 
-gradient and the regions located next to each other cannot be easily 
-separated by the unsupervised clutstering. For this reason, I decided 
-to use the pre-existing authors' anntotations (tissue region and ylayer)
-direclty for the DEG analysis.
+Leiden unsupervised clustering was performed on the data using several 
+resolution parameters (0.02, 0.05, 0.1, 0.25, and 0.5) to check whether 
+independent clustering would recapture the known regional and villus 
+layer structure annotated by the authors. Clustering at resolution = 0.5 
+yielded 27 clusters that are largely region-pure (Figure 
+\ref{fig:leiden_heatmap}), but each region was split into multiple 
+sub-clusters corresponding to the ``petal'' substructure of the UMAP, 
+not to the known villus layers. At the lowest resolution (0.02), the 
+clustering produced 4 clusters — the same number as the annotated 
+regions — but these clusters were not pure, with the two jejunum 
+regions mixing the most. This suggests that both the proximal-distal 
+axis and, even more so, the crypt-to-villus axis form a continuous 
+gradient, and that spatially adjacent regions cannot be easily 
+separated by unsupervised clustering. For this reason, I used the 
+pre-existing expert annotations (tissue region and ylayer) directly 
+for the differential expression analysis.
 
 \subsection{Differential Expression Analysis}
 
