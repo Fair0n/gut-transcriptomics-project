@@ -1,4 +1,4 @@
-\begin{thebibliography}{8}
+\begin{thebibliography}{10}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -28,6 +28,13 @@ Toufic Mayassi et~al.
 \newblock \emph{Nature}, 2024.
 \newblock \doi{10.1038/s41586-024-08216-z}.
 
+\bibitem[Barrett(2018)]{barrett2018mapping}
+Kim~E. Barrett.
+\newblock Mapping the duodenal crypt-villus transport axis.
+\newblock \emph{Cellular and Molecular Gastroenterology and Hepatology},
+  5\penalty0 (4):\penalty0 642--644, 2018.
+\newblock \doi{10.1016/j.jcmgh.2018.02.010}.
+
 \bibitem[Wolf et~al.(2018)Wolf, Angerer, and Theis]{wolf2018scanpy}
 F~Alexander Wolf, Philipp Angerer, and Fabian~J Theis.
 \newblock Scanpy: large-scale single-cell gene expression data analysis.
@@ -56,5 +63,12 @@ Nada~A Abumrad and Nicholas~O Davidson.
 Lora~V Hooper, Dan~R Littman, and Andrew~J Macpherson.
 \newblock Interactions between the microbiota and the immune system.
 \newblock \emph{Science}, 336:\penalty0 1268--1273, 2012.
+
+\bibitem[Paeslack and Reinhardt(2024)]{paeslack2024impact}
+Nadja Paeslack and Christoph Reinhardt.
+\newblock The impact of gut microbiota on vascularization of the small
+  intestine.
+\newblock \emph{Microbiota and Host}, 2\penalty0 (1), 2024.
+\newblock \doi{10.1530/MAH-23-0021}.
 
 \end{thebibliography}
