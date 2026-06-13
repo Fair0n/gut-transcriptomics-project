@@ -13,6 +13,13 @@ Yuto Kai.
   2021.
 \newblock \doi{10.1016/j.bpj.2021.01.003}.
 
+\bibitem[Barrett(2018)]{barrett2018mapping}
+Kim~E. Barrett.
+\newblock Mapping the duodenal crypt-villus transport axis.
+\newblock \emph{Cellular and Molecular Gastroenterology and Hepatology},
+  5\penalty0 (4):\penalty0 642--644, 2018.
+\newblock \doi{10.1016/j.jcmgh.2018.02.010}.
+
 \bibitem[Santaolalla et~al.(2011)Santaolalla, Fukata, and
   Abreu]{santaolalla2011innate}
 Rebeca Santaolalla, Masayuki Fukata, and Maria~T Abreu.
@@ -27,13 +34,6 @@ Toufic Mayassi et~al.
   gut.
 \newblock \emph{Nature}, 2024.
 \newblock \doi{10.1038/s41586-024-08216-z}.
-
-\bibitem[Barrett(2018)]{barrett2018mapping}
-Kim~E. Barrett.
-\newblock Mapping the duodenal crypt-villus transport axis.
-\newblock \emph{Cellular and Molecular Gastroenterology and Hepatology},
-  5\penalty0 (4):\penalty0 642--644, 2018.
-\newblock \doi{10.1016/j.jcmgh.2018.02.010}.
 
 \bibitem[Wolf et~al.(2018)Wolf, Angerer, and Theis]{wolf2018scanpy}
 F~Alexander Wolf, Philipp Angerer, and Fabian~J Theis.

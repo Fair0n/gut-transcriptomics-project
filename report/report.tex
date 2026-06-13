@@ -100,7 +100,7 @@ eventually shedding from the villus tip into the gut lumen
 axis represents one of the most visible differentiation gradients in 
 mammalian biology, with cells transitioning from rapidly dividing 
 stem cells to post-mitotic, functionally specialized absorptive cells 
-over a period of just three to five days.
+over a period of just three to five days \cite{barrett2018mapping}.
 
 The three major segments of the small intestine — duodenum, jejunum, 
 and ileum — each perform distinct physiological roles. The duodenum 
@@ -126,7 +126,7 @@ in the mid-colon. However, their analysis focused predominantly on
 colonic regionalization, since that is where they found the most 
 distinctive patterns, and the spatial architecture of the small 
 intestinal villus — particularly the crypt-to-villus axis — was 
-not deeply characterized \cite{barrett2018mapping}.
+not deeply characterized.
 
 In this work, I replicate parts of the spatial framework established 
 by Mayassi et al. and extend the analysis to the small intestinal 
@@ -196,6 +196,18 @@ gradient, and that spatially adjacent regions cannot be easily
 separated by unsupervised clustering. For this reason, I used the 
 pre-existing expert annotations (tissue region and ylayer) directly 
 for the differential expression analysis.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{03_cluster_composition_heatmap.png}
+    \caption{Composition of Leiden clusters (resolution=0.5) with respect 
+    to tissue region (A) and villus layer (B). Each row shows, for one 
+    Leiden cluster, the fraction of its spots belonging to each category. 
+    Most clusters are dominated by a single region (Panel A), with the 
+    two jejunum regions showing the most mixing, while no cluster is 
+    dominated by a single villus layer (Panel B).}
+    \label{fig:leiden_heatmap}
+\end{figure}
 
 \subsection{Differential Expression Analysis}
 

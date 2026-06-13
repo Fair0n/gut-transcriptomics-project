@@ -3,64 +3,66 @@
 \providecommand\HyField@AuxAddToFields[1]{}
 \providecommand\HyField@AuxAddToCoFields[2]{}
 \citation{kai2021intestinal}
+\citation{barrett2018mapping}
 \citation{santaolalla2011innate}
 \citation{mayassi2024}
-\citation{barrett2018mapping}
 \citation{wolf2018scanpy}
 \@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {2}Methods and Materials}{1}{section.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Data}{1}{subsection.2.1}\protected@file@percent }
-\citation{fang2023enrichr}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Preprocessing}{2}{subsection.2.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Leiden Clustering}{2}{subsection.2.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Composition of Leiden clusters (resolution=0.5) with respect to tissue region (A) and villus layer (B). Each row shows, for one Leiden cluster, the fraction of its spots belonging to each category. Most clusters are dominated by a single region (Panel A), with the two jejunum regions showing the most mixing, while no cluster is dominated by a single villus layer (Panel B).}}{2}{figure.caption.1}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:leiden_heatmap}{{1}{2}{Composition of Leiden clusters (resolution=0.5) with respect to tissue region (A) and villus layer (B). Each row shows, for one Leiden cluster, the fraction of its spots belonging to each category. Most clusters are dominated by a single region (Panel A), with the two jejunum regions showing the most mixing, while no cluster is dominated by a single villus layer (Panel B)}{figure.caption.1}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Differential Expression Analysis}{2}{subsection.2.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Conservation Analysis}{2}{subsection.2.5}\protected@file@percent }
+\citation{fang2023enrichr}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Conservation Analysis}{3}{subsection.2.5}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.6}Gene Ontology Enrichment}{3}{subsection.2.6}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.7}Reproducibility}{3}{subsection.2.7}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {3}Results}{3}{section.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Replication of Spatial Framework}{3}{subsection.3.1}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Unrolled gut spatial transcriptomics overview. Left: spots colored by tissue region. Right: spots colored by villus layer annotation. The X axis represents the proximal-to-distal gut axis; the Y axis represents the crypt-to-villus tip axis.}}{3}{figure.caption.1}\protected@file@percent }
-\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
-\newlabel{fig:unrolled}{{1}{3}{Unrolled gut spatial transcriptomics overview. Left: spots colored by tissue region. Right: spots colored by villus layer annotation. The X axis represents the proximal-to-distal gut axis; the Y axis represents the crypt-to-villus tip axis}{figure.caption.1}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces UMAP of all Visium spots colored by tissue region (A), villus layer (B), and microbiome condition (C). SPF and GF spots intermix throughout, confirming transcriptional robustness to microbiome perturbation.}}{4}{figure.caption.2}\protected@file@percent }
-\newlabel{fig:umap}{{2}{4}{UMAP of all Visium spots colored by tissue region (A), villus layer (B), and microbiome condition (C). SPF and GF spots intermix throughout, confirming transcriptional robustness to microbiome perturbation}{figure.caption.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Unrolled gut spatial transcriptomics overview. Left: spots colored by tissue region. Right: spots colored by villus layer annotation. The X axis represents the proximal-to-distal gut axis; the Y axis represents the crypt-to-villus tip axis.}}{4}{figure.caption.2}\protected@file@percent }
+\newlabel{fig:unrolled}{{2}{4}{Unrolled gut spatial transcriptomics overview. Left: spots colored by tissue region. Right: spots colored by villus layer annotation. The X axis represents the proximal-to-distal gut axis; the Y axis represents the crypt-to-villus tip axis}{figure.caption.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces UMAP of all Visium spots colored by tissue region (A), villus layer (B), and microbiome condition (C). SPF and GF spots intermix throughout, confirming transcriptional robustness to microbiome perturbation.}}{4}{figure.caption.3}\protected@file@percent }
+\newlabel{fig:umap}{{3}{4}{UMAP of all Visium spots colored by tissue region (A), villus layer (B), and microbiome condition (C). SPF and GF spots intermix throughout, confirming transcriptional robustness to microbiome perturbation}{figure.caption.3}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Small Intestinal Regional Identity}{4}{subsection.3.2}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces UMAP of small intestine spots only, colored by region (A), villus layer (B), and microbiome condition (C). Each region forms a distinct cluster with internal villus layer structure.}}{4}{figure.caption.3}\protected@file@percent }
-\newlabel{fig:si_umap}{{3}{4}{UMAP of small intestine spots only, colored by region (A), villus layer (B), and microbiome condition (C). Each region forms a distinct cluster with internal villus layer structure}{figure.caption.3}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Dotplot of top 5 marker genes per SI region. Dot size indicates the fraction of spots expressing the gene; color indicates mean expression level (scaled 0-1 per gene).}}{5}{figure.caption.4}\protected@file@percent }
-\newlabel{fig:dotplot_region}{{4}{5}{Dotplot of top 5 marker genes per SI region. Dot size indicates the fraction of spots expressing the gene; color indicates mean expression level (scaled 0-1 per gene)}{figure.caption.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces UMAP of small intestine spots only, colored by region (A), villus layer (B), and microbiome condition (C). Each region forms a distinct cluster with internal villus layer structure.}}{5}{figure.caption.4}\protected@file@percent }
+\newlabel{fig:si_umap}{{4}{5}{UMAP of small intestine spots only, colored by region (A), villus layer (B), and microbiome condition (C). Each region forms a distinct cluster with internal villus layer structure}{figure.caption.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Dotplot of top 5 marker genes per SI region. Dot size indicates the fraction of spots expressing the gene; color indicates mean expression level (scaled 0-1 per gene).}}{5}{figure.caption.5}\protected@file@percent }
+\newlabel{fig:dotplot_region}{{5}{5}{Dotplot of top 5 marker genes per SI region. Dot size indicates the fraction of spots expressing the gene; color indicates mean expression level (scaled 0-1 per gene)}{figure.caption.5}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Conservation of the Crypt-to-Villus Transcriptional Gradient}{5}{subsection.3.3}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Dotplot of top 5 marker genes per villus layer. Layers are ordered from crypt base (bottom) to villus tip (top), reflecting the direction of cell migration. Key markers include \textit  {Mki67} and \textit  {Olfm4} (Crypt SI) and \textit  {Apob} and \textit  {Klf4} (Top villous SI).}}{5}{figure.caption.5}\protected@file@percent }
-\newlabel{fig:dotplot_layer}{{5}{5}{Dotplot of top 5 marker genes per villus layer. Layers are ordered from crypt base (bottom) to villus tip (top), reflecting the direction of cell migration. Key markers include \textit {Mki67} and \textit {Olfm4} (Crypt SI) and \textit {Apob} and \textit {Klf4} (Top villous SI)}{figure.caption.5}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Conservation of villus layer markers across SI regions. For each layer, marker genes are classified by how many regions they appear in (1 = region-specific, 4 = conserved across all segments). The blue bar represents the conserved core shared by all four SI regions.}}{6}{figure.caption.6}\protected@file@percent }
-\newlabel{fig:conservation}{{6}{6}{Conservation of villus layer markers across SI regions. For each layer, marker genes are classified by how many regions they appear in (1 = region-specific, 4 = conserved across all segments). The blue bar represents the conserved core shared by all four SI regions}{figure.caption.6}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Mean expression of top conserved villus tip markers across all region-layer combinations. Columns are ordered Crypt $\rightarrow $ Bottom villous $\rightarrow $ Top villous within each region, reflecting the biological gradient. Mitochondrial genes excluded for clarity.}}{6}{figure.caption.7}\protected@file@percent }
-\newlabel{fig:heatmap}{{7}{6}{Mean expression of top conserved villus tip markers across all region-layer combinations. Columns are ordered Crypt $\rightarrow $ Bottom villous $\rightarrow $ Top villous within each region, reflecting the biological gradient. Mitochondrial genes excluded for clarity}{figure.caption.7}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Gene Ontology Enrichment of Villus Layer Markers}{6}{subsection.3.4}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces GO Biological Process enrichment for conserved Crypt SI markers (green) and conserved Top villous SI markers (red). Bars show $-\log _{10}$(adjusted p-value). Red dashed line marks the p=0.05 significance threshold.}}{7}{figure.caption.8}\protected@file@percent }
-\newlabel{fig:go}{{8}{7}{GO Biological Process enrichment for conserved Crypt SI markers (green) and conserved Top villous SI markers (red). Bars show $-\log _{10}$(adjusted p-value). Red dashed line marks the p=0.05 significance threshold}{figure.caption.8}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Microbiome Differentially Affects the Crypt-to-Villus Axis}{7}{subsection.3.5}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Number of SPF vs GF differentially expressed genes per region-layer combination. Left: genes upregulated in SPF (promoted by microbiome). Right: genes upregulated in GF (suppressed by microbiome). Both conditions were downsampled to equal spot counts prior to analysis.}}{7}{figure.caption.9}\protected@file@percent }
-\newlabel{fig:microbiome}{{9}{7}{Number of SPF vs GF differentially expressed genes per region-layer combination. Left: genes upregulated in SPF (promoted by microbiome). Right: genes upregulated in GF (suppressed by microbiome). Both conditions were downsampled to equal spot counts prior to analysis}{figure.caption.9}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Dotplot of top 5 marker genes per villus layer. Layers are ordered from crypt base (bottom) to villus tip (top), reflecting the direction of cell migration. Key markers include \textit  {Mki67} and \textit  {Olfm4} (Crypt SI) and \textit  {Apob} and \textit  {Klf4} (Top villous SI).}}{6}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:dotplot_layer}{{6}{6}{Dotplot of top 5 marker genes per villus layer. Layers are ordered from crypt base (bottom) to villus tip (top), reflecting the direction of cell migration. Key markers include \textit {Mki67} and \textit {Olfm4} (Crypt SI) and \textit {Apob} and \textit {Klf4} (Top villous SI)}{figure.caption.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Conservation of villus layer markers across SI regions. For each layer, marker genes are classified by how many regions they appear in (1 = region-specific, 4 = conserved across all segments). The blue bar represents the conserved core shared by all four SI regions.}}{6}{figure.caption.7}\protected@file@percent }
+\newlabel{fig:conservation}{{7}{6}{Conservation of villus layer markers across SI regions. For each layer, marker genes are classified by how many regions they appear in (1 = region-specific, 4 = conserved across all segments). The blue bar represents the conserved core shared by all four SI regions}{figure.caption.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Mean expression of top conserved villus tip markers across all region-layer combinations. Columns are ordered Crypt $\rightarrow $ Bottom villous $\rightarrow $ Top villous within each region, reflecting the biological gradient. Mitochondrial genes excluded for clarity.}}{7}{figure.caption.8}\protected@file@percent }
+\newlabel{fig:heatmap}{{8}{7}{Mean expression of top conserved villus tip markers across all region-layer combinations. Columns are ordered Crypt $\rightarrow $ Bottom villous $\rightarrow $ Top villous within each region, reflecting the biological gradient. Mitochondrial genes excluded for clarity}{figure.caption.8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Gene Ontology Enrichment of Villus Layer Markers}{7}{subsection.3.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces GO Biological Process enrichment for conserved Crypt SI markers (green) and conserved Top villous SI markers (red). Bars show $-\log _{10}$(adjusted p-value). Red dashed line marks the p=0.05 significance threshold.}}{7}{figure.caption.9}\protected@file@percent }
+\newlabel{fig:go}{{9}{7}{GO Biological Process enrichment for conserved Crypt SI markers (green) and conserved Top villous SI markers (red). Bars show $-\log _{10}$(adjusted p-value). Red dashed line marks the p=0.05 significance threshold}{figure.caption.9}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Microbiome Differentially Affects the Crypt-to-Villus Axis}{8}{subsection.3.5}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Number of SPF vs GF differentially expressed genes per region-layer combination. Left: genes upregulated in SPF (promoted by microbiome). Right: genes upregulated in GF (suppressed by microbiome). Both conditions were downsampled to equal spot counts prior to analysis.}}{8}{figure.caption.10}\protected@file@percent }
+\newlabel{fig:microbiome}{{10}{8}{Number of SPF vs GF differentially expressed genes per region-layer combination. Left: genes upregulated in SPF (promoted by microbiome). Right: genes upregulated in GF (suppressed by microbiome). Both conditions were downsampled to equal spot counts prior to analysis}{figure.caption.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces GO Biological Process enrichment for genes upregulated at the villus tip in germ-free mice — processes suppressed by the microbiome at the villus tip.}}{8}{figure.caption.11}\protected@file@percent }
+\newlabel{fig:go_tip}{{11}{8}{GO Biological Process enrichment for genes upregulated at the villus tip in germ-free mice — processes suppressed by the microbiome at the villus tip}{figure.caption.11}{}}
 \citation{gehart2019tales}
 \citation{abumrad2012intestinal}
 \citation{hooper2012interactions}
 \citation{paeslack2024impact}
-\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces GO Biological Process enrichment for genes upregulated at the villus tip in germ-free mice — processes suppressed by the microbiome at the villus tip.}}{8}{figure.caption.10}\protected@file@percent }
-\newlabel{fig:go_tip}{{10}{8}{GO Biological Process enrichment for genes upregulated at the villus tip in germ-free mice — processes suppressed by the microbiome at the villus tip}{figure.caption.10}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {4}Discussion}{8}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Discussion}{9}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Limitations}{9}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Conclusions}{9}{subsection.4.2}\protected@file@percent }
 \bibstyle{unsrtnat}
 \bibdata{references}
 \bibcite{kai2021intestinal}{{1}{2021}{{Kai}}{{}}}
-\bibcite{santaolalla2011innate}{{2}{2011}{{Santaolalla et~al.}}{{Santaolalla, Fukata, and Abreu}}}
-\bibcite{mayassi2024}{{3}{2024}{{Mayassi et~al.}}{{}}}
-\bibcite{barrett2018mapping}{{4}{2018}{{Barrett}}{{}}}
+\bibcite{barrett2018mapping}{{2}{2018}{{Barrett}}{{}}}
+\bibcite{santaolalla2011innate}{{3}{2011}{{Santaolalla et~al.}}{{Santaolalla, Fukata, and Abreu}}}
+\bibcite{mayassi2024}{{4}{2024}{{Mayassi et~al.}}{{}}}
 \bibcite{wolf2018scanpy}{{5}{2018}{{Wolf et~al.}}{{Wolf, Angerer, and Theis}}}
 \bibcite{fang2023enrichr}{{6}{2023}{{Fang et~al.}}{{}}}
 \bibcite{gehart2019tales}{{7}{2019}{{Gehart and Clevers}}{{}}}
 \bibcite{abumrad2012intestinal}{{8}{2012}{{Abumrad and Davidson}}{{}}}
 \bibcite{hooper2012interactions}{{9}{2012}{{Hooper et~al.}}{{Hooper, Littman, and Macpherson}}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Limitations}{9}{subsection.4.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Conclusions}{9}{subsection.4.2}\protected@file@percent }
 \bibcite{paeslack2024impact}{{10}{2024}{{Paeslack and Reinhardt}}{{}}}
 \gdef \@abspage@last{11}

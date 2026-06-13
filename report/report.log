@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.6.4)  13 JUN 2026 14:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.6.4)  13 JUN 2026 15:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -520,131 +520,133 @@ been already used, duplicate ignored
                    \relax 
 l.180 
        [1]
-
-LaTeX Warning: Reference `fig:leiden_heatmap' on page 2 undefined on input line
- 188.
-
-[2]
-<../results/figures/01_unrolled_gut_overview.png, id=114, 1292.6694pt x 513.598
+<../results/figures/03_cluster_composition_heatmap.png, id=102, 1262.316pt x 58
+6.3506pt>
+File: ../results/figures/03_cluster_composition_heatmap.png Graphic file (type 
+png)
+<use ../results/figures/03_cluster_composition_heatmap.png>
+Package pdftex.def Info: ../results/figures/03_cluster_composition_heatmap.png 
+ used on input line 202.
+(pdftex.def)             Requested size: 455.24411pt x 211.46182pt.
+ [2 <../results/figures/03_cluster_composition_heatmap.png>]
+<../results/figures/01_unrolled_gut_overview.png, id=115, 1292.6694pt x 513.598
 8pt>
 File: ../results/figures/01_unrolled_gut_overview.png Graphic file (type png)
 <use ../results/figures/01_unrolled_gut_overview.png>
 Package pdftex.def Info: ../results/figures/01_unrolled_gut_overview.png  used 
-on input line 267.
+on input line 279.
 (pdftex.def)             Requested size: 455.24411pt x 180.8751pt.
-<../results/figures/02_umap_overview.png, id=117, 1437.2094pt x 440.3652pt>
+ [3]
+<../results/figures/02_umap_overview.png, id=127, 1437.2094pt x 440.3652pt>
 File: ../results/figures/02_umap_overview.png Graphic file (type png)
 <use ../results/figures/02_umap_overview.png>
 Package pdftex.def Info: ../results/figures/02_umap_overview.png  used on input
- line 283.
+ line 295.
 (pdftex.def)             Requested size: 455.24411pt x 139.4885pt.
- [3 <../results/figures/01_unrolled_gut_overview.png>]
-<../results/figures/03_si_umap.png, id=128, 1437.6912pt x 440.3652pt>
+<../results/figures/03_si_umap.png, id=129, 1437.6912pt x 440.3652pt>
 File: ../results/figures/03_si_umap.png Graphic file (type png)
 <use ../results/figures/03_si_umap.png>
 Package pdftex.def Info: ../results/figures/03_si_umap.png  used on input line 
-301.
+313.
 (pdftex.def)             Requested size: 455.24411pt x 139.43474pt.
-<../results/figures/dotplot_03_region_marker_dotplot.png, id=130, 972.7542pt x 
+
+[4 <../results/figures/01_unrolled_gut_overview.png> <../results/figures/02_uma
+p_overview.png>]
+<../results/figures/dotplot_03_region_marker_dotplot.png, id=139, 972.7542pt x 
 297.0297pt>
 File: ../results/figures/dotplot_03_region_marker_dotplot.png Graphic file (typ
 e png)
 <use ../results/figures/dotplot_03_region_marker_dotplot.png>
 Package pdftex.def Info: ../results/figures/dotplot_03_region_marker_dotplot.pn
-g  used on input line 320.
+g  used on input line 332.
 (pdftex.def)             Requested size: 455.24411pt x 139.0057pt.
- [4 <../results/figures/02_umap_overview.png> <../results/figures/03_si_umap.pn
-g>]
 <../results/figures/dotplot_03_layer_marker_dotplot.png, id=141, 885.3075pt x 2
 91.9708pt>
 File: ../results/figures/dotplot_03_layer_marker_dotplot.png Graphic file (type
  png)
 <use ../results/figures/dotplot_03_layer_marker_dotplot.png>
 Package pdftex.def Info: ../results/figures/dotplot_03_layer_marker_dotplot.png
-  used on input line 347.
+  used on input line 359.
 (pdftex.def)             Requested size: 455.24411pt x 150.14165pt.
-<../results/figures/03_layer_marker_conservation.png, id=143, 1437.2094pt x 370
+ [5 <../results/figures/03_si_umap.png> <../results/figures/dotplot_03_region_m
+arker_dotplot.png>]
+<../results/figures/03_layer_marker_conservation.png, id=152, 1437.2094pt x 370
 .986pt>
 File: ../results/figures/03_layer_marker_conservation.png Graphic file (type pn
 g)
 <use ../results/figures/03_layer_marker_conservation.png>
 Package pdftex.def Info: ../results/figures/03_layer_marker_conservation.png  u
-sed on input line 369.
+sed on input line 381.
 (pdftex.def)             Requested size: 455.24411pt x 117.51219pt.
- [5 <../results/figures/dotplot_03_region_marker_dotplot.png> <../results/figur
-es/dotplot_03_layer_marker_dotplot.png>]
-<../results/figures/03_conserved_tip_markers_heatmap.png, id=153, 1045.9878pt x
+<../results/figures/03_conserved_tip_markers_heatmap.png, id=154, 1045.9878pt x
  569.4876pt>
 File: ../results/figures/03_conserved_tip_markers_heatmap.png Graphic file (typ
 e png)
 <use ../results/figures/03_conserved_tip_markers_heatmap.png>
 Package pdftex.def Info: ../results/figures/03_conserved_tip_markers_heatmap.pn
-g  used on input line 390.
+g  used on input line 402.
 (pdftex.def)             Requested size: 455.24411pt x 247.85545pt.
-<../results/figures/04_go_crypt_vs_top_villous.png, id=155, 1438.173pt x 586.35
+ [6 <../results/figures/dotplot_03_layer_marker_dotplot.png> <../results/figure
+s/03_layer_marker_conservation.png>]
+<../results/figures/04_go_crypt_vs_top_villous.png, id=165, 1438.173pt x 586.35
 06pt>
 File: ../results/figures/04_go_crypt_vs_top_villous.png Graphic file (type png)
 
 <use ../results/figures/04_go_crypt_vs_top_villous.png>
 Package pdftex.def Info: ../results/figures/04_go_crypt_vs_top_villous.png  use
-d on input line 415.
+d on input line 427.
 (pdftex.def)             Requested size: 455.24411pt x 185.60506pt.
- [6 <../results/figures/03_layer_marker_conservation.png> <../results/figures/0
-3_conserved_tip_markers_heatmap.png>]
-<../results/figures/05_microbiome_sensitivity_heatmap.png, id=166, 1126.4484pt 
+
+[7 <../results/figures/03_conserved_tip_markers_heatmap.png> <../results/figure
+s/04_go_crypt_vs_top_villous.png>]
+<../results/figures/05_microbiome_sensitivity_heatmap.png, id=175, 1126.4484pt 
 x 370.986pt>
 File: ../results/figures/05_microbiome_sensitivity_heatmap.png Graphic file (ty
 pe png)
 <use ../results/figures/05_microbiome_sensitivity_heatmap.png>
 Package pdftex.def Info: ../results/figures/05_microbiome_sensitivity_heatmap.p
-ng  used on input line 433.
+ng  used on input line 445.
 (pdftex.def)             Requested size: 455.24411pt x 149.93149pt.
-<../results/figures/05_go_top_villous_gf_up.png, id=168, 860.013pt x 496.7358pt
+<../results/figures/05_go_top_villous_gf_up.png, id=177, 860.013pt x 496.7358pt
 >
 File: ../results/figures/05_go_top_villous_gf_up.png Graphic file (type png)
 <use ../results/figures/05_go_top_villous_gf_up.png>
 Package pdftex.def Info: ../results/figures/05_go_top_villous_gf_up.png  used o
-n input line 459.
+n input line 471.
 (pdftex.def)             Requested size: 273.14923pt x 157.7687pt.
- [7 <../results/figures/04_go_crypt_vs_top_villous.png> <../results/figures/05_
-microbiome_sensitivity_heatmap.png>] [8 <../results/figures/05_go_top_villous_g
-f_up.png>]
-(./report.bbl [9]) [10] (./report.aux)
+ [8 <../results/figures/05_microbiome_sensitivity_heatmap.png> <../results/figu
+res/05_go_top_villous_gf_up.png>] [9]
+(./report.bbl) [10] (./report.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: 772BD118A06474EEFD50D275E02F38D2;3219.
  ) 
 Here is how much of TeX's memory you used:
- 13994 strings out of 474222
- 226712 string characters out of 5748734
- 1934975 words of memory out of 5000000
- 35895 multiletter control sequences out of 15000+600000
- 575053 words of font info for 132 fonts, out of 8000000 for 9000
+ 13999 strings out of 474222
+ 227155 string characters out of 5748734
+ 1933975 words of memory out of 5000000
+ 35902 multiletter control sequences out of 15000+600000
+ 574179 words of font info for 130 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,6n,79p,1003b,587s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,6n,79p,1003b,490s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/t
 ype1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super
-/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/
-share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/ty
-pe1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/
-sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/s
-hare/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/typ
-e1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
-ftt1095.pfb>
-Output written on report.pdf (11 pages, 5855114 bytes).
+/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/
+share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/ty
+pe1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/
+sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/s
+hare/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/typ
+e1/public/cm-super/sftt1095.pfb>
+Output written on report.pdf (11 pages, 6086575 bytes).
 PDF statistics:
- 276 PDF objects out of 1000 (max. 8388607)
- 212 compressed objects within 3 object streams
- 51 named destinations out of 1000 (max. 500000)
- 29379 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 275 PDF objects out of 1000 (max. 8388607)
+ 211 compressed objects within 3 object streams
+ 52 named destinations out of 1000 (max. 500000)
+ 27336 words of extra memory for PDF output out of 29859 (max. 10000000)
 
