@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.6.4)  13 JUN 2026 15:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.6.4)  14 JUN 2026 09:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -558,7 +558,7 @@ File: ../results/figures/dotplot_03_region_marker_dotplot.png Graphic file (typ
 e png)
 <use ../results/figures/dotplot_03_region_marker_dotplot.png>
 Package pdftex.def Info: ../results/figures/dotplot_03_region_marker_dotplot.pn
-g  used on input line 332.
+g  used on input line 334.
 (pdftex.def)             Requested size: 455.24411pt x 139.0057pt.
 <../results/figures/dotplot_03_layer_marker_dotplot.png, id=141, 885.3075pt x 2
 91.9708pt>
@@ -566,7 +566,7 @@ File: ../results/figures/dotplot_03_layer_marker_dotplot.png Graphic file (type
  png)
 <use ../results/figures/dotplot_03_layer_marker_dotplot.png>
 Package pdftex.def Info: ../results/figures/dotplot_03_layer_marker_dotplot.png
-  used on input line 359.
+  used on input line 362.
 (pdftex.def)             Requested size: 455.24411pt x 150.14165pt.
  [5 <../results/figures/03_si_umap.png> <../results/figures/dotplot_03_region_m
 arker_dotplot.png>]
@@ -576,7 +576,7 @@ File: ../results/figures/03_layer_marker_conservation.png Graphic file (type pn
 g)
 <use ../results/figures/03_layer_marker_conservation.png>
 Package pdftex.def Info: ../results/figures/03_layer_marker_conservation.png  u
-sed on input line 381.
+sed on input line 384.
 (pdftex.def)             Requested size: 455.24411pt x 117.51219pt.
 <../results/figures/03_conserved_tip_markers_heatmap.png, id=154, 1045.9878pt x
  569.4876pt>
@@ -584,7 +584,7 @@ File: ../results/figures/03_conserved_tip_markers_heatmap.png Graphic file (typ
 e png)
 <use ../results/figures/03_conserved_tip_markers_heatmap.png>
 Package pdftex.def Info: ../results/figures/03_conserved_tip_markers_heatmap.pn
-g  used on input line 402.
+g  used on input line 405.
 (pdftex.def)             Requested size: 455.24411pt x 247.85545pt.
  [6 <../results/figures/dotplot_03_layer_marker_dotplot.png> <../results/figure
 s/03_layer_marker_conservation.png>]
@@ -594,7 +594,7 @@ File: ../results/figures/04_go_crypt_vs_top_villous.png Graphic file (type png)
 
 <use ../results/figures/04_go_crypt_vs_top_villous.png>
 Package pdftex.def Info: ../results/figures/04_go_crypt_vs_top_villous.png  use
-d on input line 427.
+d on input line 430.
 (pdftex.def)             Requested size: 455.24411pt x 185.60506pt.
 
 [7 <../results/figures/03_conserved_tip_markers_heatmap.png> <../results/figure
@@ -605,14 +605,14 @@ File: ../results/figures/05_microbiome_sensitivity_heatmap.png Graphic file (ty
 pe png)
 <use ../results/figures/05_microbiome_sensitivity_heatmap.png>
 Package pdftex.def Info: ../results/figures/05_microbiome_sensitivity_heatmap.p
-ng  used on input line 445.
+ng  used on input line 448.
 (pdftex.def)             Requested size: 455.24411pt x 149.93149pt.
 <../results/figures/05_go_top_villous_gf_up.png, id=177, 860.013pt x 496.7358pt
 >
 File: ../results/figures/05_go_top_villous_gf_up.png Graphic file (type png)
 <use ../results/figures/05_go_top_villous_gf_up.png>
 Package pdftex.def Info: ../results/figures/05_go_top_villous_gf_up.png  used o
-n input line 471.
+n input line 474.
 (pdftex.def)             Requested size: 273.14923pt x 157.7687pt.
  [8 <../results/figures/05_microbiome_sensitivity_heatmap.png> <../results/figu
 res/05_go_top_villous_gf_up.png>] [9]
@@ -626,10 +626,10 @@ Package rerunfilecheck Info: File `report.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  13999 strings out of 474222
- 227155 string characters out of 5748734
+ 227151 string characters out of 5748734
  1933975 words of memory out of 5000000
  35902 multiletter control sequences out of 15000+600000
- 574179 words of font info for 130 fonts, out of 8000000 for 9000
+ 574295 words of font info for 130 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,6n,79p,1003b,490s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
@@ -643,7 +643,7 @@ pe1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/
 sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/s
 hare/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/typ
 e1/public/cm-super/sftt1095.pfb>
-Output written on report.pdf (11 pages, 6086632 bytes).
+Output written on report.pdf (11 pages, 6087252 bytes).
 PDF statistics:
  275 PDF objects out of 1000 (max. 8388607)
  211 compressed objects within 3 object streams

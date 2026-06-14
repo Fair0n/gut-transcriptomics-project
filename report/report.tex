@@ -322,10 +322,12 @@ regional marker genes across all four SI segments. The ileum showed
 the most unique transcriptional identity (2,801 DEGs), followed by 
 duodenum (1,929), jejunum1 (1,075), and jejunum2 (601). Top marker 
 genes for each region are biologically validated: duodenum markers 
-include \textit{Reg1} and \textit{S100g}, jejunum markers include 
-\textit{Fabp1} and \textit{Apoa4} (fatty acid and lipoprotein 
-absorption), and ileum markers include \textit{Fabp6} (bile acid 
-binding) and \textit{Tmigd1} (Figure \ref{fig:dotplot_region}).
+include \textit{Reg1} — critical for tissue regeneration and 
+\textit{S100g} — coding calcium binding protein G; jejunum markers include 
+\textit{Fabp1} — coding fatty acid-binding protein and \textit{Apoa4} —
+respondible for transport of fats and cholersterol; and ileum 
+markers include \textit{Fabp6} — encoded ileal bile acdid-binding protein
+and \textit{Defa22} — encoding a defensin(Figure \ref{fig:dotplot_region}).
 
 \begin{figure}[H]
     \centering
@@ -349,9 +351,10 @@ functional specialization present toward the villus tip.
 
 Crypt SI markers are dominated by proliferation and cell cycle genes, 
 including \textit{Mki67} (canonical proliferation marker), 
-\textit{Olfm4} (intestinal stem cell marker), and \textit{Stmn1} 
-(expressed in rapidly dividing progenitors), validating the 
-biological accuracy of the layer annotations 
+\textit{Olfm4} (intestinal stem cell marker encoding a glycoprotein 
+that plays critical roles in inflammation and cellular proliferation), 
+and \textit{Stmn1} (expressed in rapidly dividing progenitors), 
+validating the biological accuracy of the layer annotations 
 (Figure \ref{fig:dotplot_layer}).
 
 \begin{figure}[H]
@@ -494,7 +497,9 @@ crypt-to-villus axis across all four SI segments.
 My first main finding is that the crypt-to-villus transcriptional 
 gradient is organized as a conserved core program shared across 
 duodenum, jejunum, and ileum, overlaid with region-specific gene 
-expression that increases toward the villus tip. The conserved 
+expression that increases toward the villus tip. However, this might 
+be due to the fact, that mature enterocytes are in general more diverse 
+than the cells in the crypt.The conserved 
 crypt program reflects universal stem cell and proliferation 
 machinery — consistent with the known biology of intestinal 
 stem cells \cite{gehart2019tales}. The conserved 
@@ -506,7 +511,8 @@ probably, due to the segment-specific functional specializations of mature
 enterocytes — duodenal enterocytes absorb iron and calcium, 
 jejunal enterocytes absorb fatty acids and amino acids via 
 distinct transporter sets, and ileal enterocytes reabsorb 
-bile acids via specific transporters.
+bile acids via specific transporters. This is overall consistent with 
+prior knowledge.
 
 My second main finding concerns the microbiome's differential effect 
 along the crypt-to-villus axis. I initially hypothesized that the 
@@ -541,19 +547,21 @@ Mayassi et al. dataset) could provide finer characterization
 of the crypt-to-villus gradient. Second, all data are from 
 mouse tissue, and while mouse and human intestinal biology 
 are broadly conserved, direct translation to human disease 
-requires validation in human samples. Third, the microbiome 
-comparison is limited to SPF vs GF; the FMT condition, which 
-would allow assessment of microbiome rescue effects, was 
-not analyzed due to time constraints. Fourth, the number of 
-DEGs detected is influenced by spot count even after 
-downsampling, as larger absolute numbers of spots per 
-condition increase statistical power for detecting small 
-effect sizes. Finally, the villus tip markers identified here could be 
-contextualized against published transcriptomic datasets from 
-intestinal disease models — such as celiac disease, where 
-villous atrophy selectively destroys the tip compartment — 
-to directly quantify which conserved tip programs are disrupted 
-during pathology.
+requires validation in human samples (e.g. \textit{Defa22} gene 
+in mice has similar functionality to human's \textit{DEFA5}). 
+Third, the microbiome comparison is limited to SPF vs GF; the 
+FMT condition, which would allow assessment of microbiome 
+rescue effects, was not analyzed due to time constraints. 
+Fourth, the number of DEGs detected is potentially influenced 
+by spot count even after downsampling, as larger absolute 
+numbers of spots per condition increase statistical power 
+for detecting small effect sizes. Finally, it would be 
+undoubtedly benefitial to contextualize the villus tip 
+markers identified here against published transcriptomic 
+datasets from intestinal disease models — such as celiac 
+disease, where villous atrophy selectively destroys the 
+tip compartment — to directly quantify which conserved 
+tip programs are disrupted during pathology.
 
 \subsection{Conclusions}
 
