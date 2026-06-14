@@ -45,7 +45,6 @@ gut-transcriptomics-project/
 │
 ├── Snakefile
 ├── README.md
-├── environment.yml                    ← conda environment (see below)
 │
 ├── notebooks/
 │   ├── 01_data_loading_and_exploratin.ipynb
@@ -75,8 +74,7 @@ gut-transcriptomics-project/
 3. **Microbiome asymmetry:** The microbiome differentially affects villus layers — 
    promoting expression in the bottom villous SI and suppressing gene expression 
    machinery (mRNA processing, translation) at the villus tip. In germ-free mice
-   these processes are upregulated at the villus tip, which can suggest the microbiome
-   induces transcriptomal restraint.
+   these processes are upregulated at the villus tip.
 
 
 ---
