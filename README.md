@@ -41,6 +41,7 @@ Download from: https://singlecell.broadinstitute.org/single_cell/study/SCP2762
 ---
 
 ## Repository Structure
+```
 gut-transcriptomics-project/
 │
 ├── Snakefile
@@ -58,7 +59,7 @@ gut-transcriptomics-project/
 │   └── tables/
 │
 └── report/
-
+```
 ---
 
 ## Key Findings
